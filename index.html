@@ -1,7 +1,393 @@
 <!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
+<html lang="en">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>fishbowl- tables turned. profits earned.</title>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open Sans:400,300">
+        
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="assets/css/animate.css">
+        <link rel="stylesheet" href="assets/ultimate-flat-social-icons/ultm-css/ultm.css">
+		<link rel="stylesheet" href="assets/css/form-elements.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/media-queries.css">
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <!-- Favicon and touch icons -->
+        <link rel="shortcut icon" href="assets/ico/favicon.png">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+
+    </head>
+
+    <body>
+    
+        <!-- Loader -->
+    	<div class="loader">
+    		<div class="loader-img"></div>
+    	</div>
+		
+		<!-- Top menu -->
+		<nav
+			<a class="scroll-link" href="#top-content">top</a>
+			<a class="scroll-link" href="#subscribe">subscribe</a>
+			<a class="scroll-link" href="#features">what is fishbowl</a>
+			<a class="scroll-link" href="#about-us">about</a>
+			<a class="scroll-link" href="#contact">contact</a>
+			<div class="hide-menu">
+				<a href=""><i class="fa fa-bars"></i></a>
+			</div>
+		</nav>
+		<div class="show-menu">
+			<a href=""><i class="fa fa-bars"></i></a>
+		</div>
+		
+        <!-- Top content -->
+        <div class="top-content">
+            <div class="inner-bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 text">
+                        	<div class="logo wow fadeInDown">
+                        		<a href="">fishbowl- tables turned. profits earned.</a>
+                        	</div>
+                            <h1 class="wow fadeInLeftBig">coming to a theater near you</h1>
+                            <div class="description wow fadeInLeftBig">
+                            	a "tables turned" approach to pitching where major companies pitch their tech-related 
+                            	projects or challenges to qualified startups and creatives.
+                            </div>
+                            <div class="timer wow fadeInUp">
+                                <div class="days-wrapper">
+                                    <span class="days"></span> <br>days
+                                </div> 
+                                <span class="slash">/</span> 
+                                <div class="hours-wrapper">
+                                    <span class="hours"></span> <br>hours
+                                </div> 
+                                <span class="slash">/</span> 
+                                <div class="minutes-wrapper">
+                                    <span class="minutes"></span> <br>minutes
+                                </div> 
+                                <span class="slash">/</span> 
+                                <div class="seconds-wrapper">
+                                    <span class="seconds"></span> <br>seconds
+                                </div>
+                            </div>
+                            <div class="scroll-page wow fadeInUp">
+                            	<a class="scroll-link" href="#subscribe"><i class="fa fa-chevron-down"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+   
+        <!-- Subscription form -->
+        <div class="subscribe-container section-container">
+	        <div class="container">
+	            <div class="row">
+	                <div class="col-sm-12 subscribe section-description wow fadeIn">
+	                    <h2>email updates</h2>
+	                    <p>sign up now for the newsletter and we'll let you know when we're ready to dive in:</p>
+	                    <form class="form-inline" role="form" action="assets/subscribe.php" method="post">
+	                    	<div class="form-group">
+	                    		<label class="sr-only" for="subscribe-email">email address</label>
+	                        	<input type="text" name="email" placeholder="enter your email..." class="subscribe-email" id="subscribe-email">
+	                        </div>
+	                        <button type="submit" class="btn">subscribe</button>
+	                    </form>
+	                    <div class="success-message"></div>
+	                    <div class="error-message"></div>
+	                    <div class="scroll-page">
+                        	<a class="scroll-link" href="#features"><i class="fa fa-chevron-down"></i></a>
+                        </div>
+	                </div>
+	            </div>
+	        </div>
+        </div>
+        
+        <!-- Features -->
+        <div class="features-container section-container">
+	        <div class="container">
+	            <div class="row">
+	                <div class="col-sm-12 features section-description wow fadeIn">
+	                    <h2>what is fishbowl</h2>
+	                    <p class="text-justify">
+	                    	(outside of being a cool name and a great opposite to Shark Tank) a ‘fishbowl’ 
+	                    	conversation is a form of dialog that can be used when discussing topics within 
+	                    	large groups. fishBowl is not only suitable for large groups but, it provides an 
+	                    	advantage by lowering distinctions between the companies pitching and the 
+	                    	startups/audience. It makes the environmental inviting and engaging; something 
+	                    	that many small companies would never have an opportunity of receiving. 
+	                    </p>
+	                </div>
+	            </div>
+	            <div class="row">
+                	<div class="col-sm-4 features-box wow fadeInUp">
+	                	<div class="features-box-icon">
+	                		<i class="fa fa-building-o"></i>
+	                	</div>
+	                    <h3>big companies</h3>
+	                    <p>Pitch and present their projects with a little help from us.</p>
+                    </div>
+                    <div class="col-sm-4 features-box wow fadeInDown">
+	                	<div class="features-box-icon">
+	                		<i class="fa fa-gavel"></i>
+	                	</div>
+	                    <h3>startups + creatives</h3>
+	                    <p>Apply and bid on those pitched projects.</p>
+                    </div>
+                    <div class="col-sm-4 features-box wow fadeInUp">
+	                	<div class="features-box-icon">
+	                		<i class="fa fa-share-alt"></i>
+	                	</div>
+	                    <h3>collaboratively</h3>
+	                    <p>We help select and build out those solutions so everyone wins.</p>
+                    </div>
+	            </div>
+	            <div class="row">
+	            	<div class="col-sm-12">
+	            		<div class="modal-button">
+                        	<button class="btn" data-toggle="modal" data-target="#modal-features">how it works</button>
+                        </div>
+                        <div class="scroll-page">
+                        	<a class="scroll-link" href="#testimonials"><i class="fa fa-chevron-down"></i></a>
+                        </div>
+	            	</div>
+	            </div>
+	        </div>
+        </div>
+        
+        <!-- About us -->
+        <div class="about-us-container section-container">
+	        <div class="container">
+	            <div class="row">
+	                <div class="col-sm-12 about-us section-description wow fadeIn">
+	                    <h2>about covello</h2>
+	                    <p>
+	                    	we're a collaborative growth company that helps companies think differently + do it
+	                    </p>
+	                </div>
+	            </div>
+	            <div class="row">
+	                <div class="col-sm-4 about-us-box wow fadeInUp">
+		                <div class="about-us-photo">
+		                	<img src="assets/img/team/1.jpg" alt="" data-at2x="assets/img/team/1.jpg">
+		                </div>
+	                    <h3>covello</h3>
+	                    <p class="text-justify">we work with you to discover what the opportunities and challenges are in order to define new solutions then, collaborate to foster innovation within your ecosystem. Our goal is to make sure you succeed and create a real tangible impact.
+	                    </p>
+	                    <div class="about-us-social">
+		                	<a class="ultm ultm-twitter ultm-32 ultm-square ultm-gray-to-color" href="https://twitter.com/teamcovello"></a>
+		                	<a class="ultm ultm-facebook ultm-32 ultm-square ultm-gray-to-color" href="https://www.facebook.com/teamcovello"></a>
+		                    <a class="ultm ultm-linkedin ultm-32 ultm-square ultm-gray-to-color" href="http://www.linkedin.com/company/covello?trk=tabs_biz_home"></a>
+		                    <a class="ultm ultm-google-plus-1 ultm-32 ultm-square ultm-gray-to-color" href="https://plus.google.com/u/0/b/107267948160818329482/+CovelloCo/about"></a>
+		                </div>
+	                </div>
+	                <div class="col-sm-4 about-us-box wow fadeInDown">
+		                <div class="about-us-photo">
+		                	<img src="assets/img/team/2.jpg" alt="" data-at2x="assets/img/team/2.jpg">
+		                </div>
+	                    <h3>M. Cole Jones</h3>
+	                    <p class="text-justify">a champion for startup culture and the collaborative economy, M. Cole has 
+	                    	worked the C-suite to the off beat both domestically and abroad. as the 
+	                    	other half of covello, he enjoys one-line karaoke and doing backflips in 
+	                    	Vegas on a rooftop bar. </p>
+	                    <div class="about-us-social">
+		                	<a class="ultm ultm-twitter ultm-32 ultm-square ultm-gray-to-color" href="https://twitter.com/mcolejones"></a>
+		                	<a class="ultm ultm-linkedin ultm-32 ultm-square ultm-gray-to-color" href="http://linkedin.com/in/mcolejones/"></a>
+		                </div>
+	                </div>
+	                <div class="col-sm-4 about-us-box wow fadeInUp">
+		                <div class="about-us-photo">
+		                	<img src="assets/img/team/3.jpg" alt="" data-at2x="assets/img/team/3.jpg">
+		                </div>
+	                    <h3>Michael Flanigan</h3>
+	                    <p class="text-justify">an engineer turned entrepreneur, Michael is one half of covello and bakes a 
+	                    	lot of banana bread. Other than making sure people are taken care of, he 
+	                    	spends some of his time designing stuff and making up silly characters and 
+	                    	songs.</p>
+	                    <div class="about-us-social">
+		                	<a class="ultm ultm-twitter ultm-32 ultm-square ultm-gray-to-color" href="https://twitter.com/mjflanigan"></a>
+		                	<a class="ultm ultm-linkedin ultm-32 ultm-square ultm-gray-to-color" href="http://linkedin.com/in/michaeljflanigan/"></a>
+		                </div>
+	                </div>
+	            </div>
+	            <div class="row">
+	            	<div class="col-sm-12">
+	            		<div class="modal-button">
+                        	<button class="btn" data-toggle="modal" data-target="#modal-about-us">hello covello</button>
+                        </div>
+                        <div class="scroll-page">
+                        	<a class="scroll-link" href="#contact"><i class="fa fa-chevron-down"></i></a>
+                        </div>
+	            	</div>
+	            </div>
+	        </div>
+        </div>
+        
+        <!-- Contact us -->
+        <div class="contact-container section-container section-container-full-bg">
+	        <div class="container">
+	            <div class="row">
+	                <div class="col-sm-12 contact section-description wow fadeIn">
+	                    <h2>contact us</h2>
+	                    <p>
+	                    	if you want to experience the magic and wonder of a fishbowl, learn more about
+	                    	it, or simply sign up, don't hesistate to contact us.
+	                    </p>
+	                </div>
+	            </div>
+	            <div class="row">
+	                <div class="col-sm-7 contact-form wow fadeInLeft">
+	                    <h3>send us a message</h3>
+	                    <form role="form" action="assets/contact.php" method="post">
+	                    	<div class="form-group">
+	                    		<label class="sr-only" for="contact-email">email</label>
+	                        	<input type="text" name="email" placeholder="email..." class="contact-email" id="contact-email">
+	                        </div>
+	                        <div class="form-group">
+	                        	<label class="sr-only" for="contact-name">name</label>
+	                        	<input type="text" name="name" placeholder="name..." class="contact-name" id="contact-name">
+	                        </div>
+	                        <div class="form-group">
+	                        	<label class="sr-only" for="contact-title">title</label>
+	                        	<input type="text" name="title" placeholder="title..." class="contact-title" id="contact-title">
+	                        </div>
+	                        <div class="form-group">
+	                        	<label class="sr-only" for="contact-company">company</label>
+	                        	<input type="text" name="company" placeholder="company..." class="contact-company" id="contact-company">
+	                        </div>
+	                        <div class="form-group">
+	                        	<label class="sr-only" for="contact-message">message</label>
+	                        	<textarea name="message" placeholder="message..." class="contact-message" id="contact-message"></textarea>
+	                        </div>
+	                        <button type="submit" class="btn">send it</button>
+	                    </form>
+	                </div>
+	                <div class="col-sm-5 contact-address wow fadeInUp">
+	                    <h3>contact details</h3>
+	                    <p><i class="fa fa-map-marker"></i>75 5th Street NW, Suite 314, Atlanta, GA 30308</p>
+	                    <p><i class="fa fa-phone"></i>Phone: (678) 834-9946</p>
+	                    <p><i class="fa fa-envelope"></i>email: <a href="">hello@covello.co</a></p>
+	                </div>
+	            </div>
+	            <div class="row">
+	            	<div class="col-sm-12">
+	            		<div class="scroll-page">
+                        	<a class="scroll-link" href="#top-content"><i class="fa fa-chevron-up"></i></a>
+                        </div>
+	            	</div>
+	            </div>
+	        </div>
+        </div>
+        
+        <!-- Footer -->
+        <footer>
+	        <div class="container">
+	            <div class="row">
+                    <div class="col-sm-7 footer-copyright">
+                    	&copy; powered by <a href="http://covello.co">covello</a>
+                    </div>
+                    <div class="col-sm-5 footer-social">
+                    	<a class="ultm ultm-twitter ultm-32 ultm-square ultm-gray-to-color" href="https://twitter.com/teamcovello"></a>
+		                <a class="ultm ultm-facebook ultm-32 ultm-square ultm-gray-to-color" href="https://www.facebook.com/teamcovello"></a>
+		                <a class="ultm ultm-linkedin ultm-32 ultm-square ultm-gray-to-color" href="http://www.linkedin.com/company/covello?trk=tabs_biz_home"></a>
+		                <a class="ultm ultm-google-plus-1 ultm-32 ultm-square ultm-gray-to-color" href="https://plus.google.com/u/0/b/107267948160818329482/+CovelloCo/about"></a>
+                    </div>
+	            </div>
+	        </div>
+        </footer>
+        
+        
+        <!-- MODAL: About the project -->
+        <div class="modal fade" id="modal-features" tabindex="-1" role="dialog" aria-labelledby="modal-features-label" aria-hidden="true">
+        	<div class="modal-dialog">
+        		<div class="modal-content">
+        			<div class="modal-header">
+        				<button type="button" class="close" data-dismiss="modal">
+        					<span aria-hidden="true">&times;</span><span class="sr-only">close</span>
+        				</button>
+        				<h4 class="modal-title" id="modal-features-label">more on fishbowl</h4>
+        			</div>
+        			<div class="modal-body">
+        				<p><img src="assets/img/modal/1.jpg" alt="" data-at2x="assets/img/modal/1.jpg"></p>
+        				<p class="text-justify">
+	                    	fishbowl is an end to end process and solution. We're with you from pitch to production. So how does it work?
+	                    </p>
+	                    <ul>
+	                    	<li>We start by working with you define the problem in a clear concise way.</li>
+	                    	<li>Then we help you build a presentation that clearly communicates your challenges.</li>
+	                    	<li>Next we go and curate the right startups, creatives, and businesses that can help sole your problem.</li>
+	                    	<li>We host and produce the fishbowl event.</li>
+	                    	<li>Startups and creatives bid on the challenges you have presented.</li>
+	                    	<li>We help you select and chose the companies you want to work with.</li>
+	                    	<li>We manage the relationship and make sure that the challenges get solved.</li>
+	                    </ul>
+	                    <p class="text-justify">
+	                    	It's pretty simple, but if you have more quesitons send us a message below.
+	                    </p>
+        			</div>
+        			<div class="modal-footer">
+        				<button type="button" class="btn btn-default" data-dismiss="modal">close</button>
+        			</div>
+        		</div>
+        	</div>
+        </div>
+        
+        <!-- MODAL: About our team -->
+        <div class="modal fade" id="modal-about-us" tabindex="-1" role="dialog" aria-labelledby="modal-about-us-label" aria-hidden="true">
+        	<div class="modal-dialog">
+        		<div class="modal-content">
+        			<div class="modal-header">
+        				<button type="button" class="close" data-dismiss="modal">
+        					<span aria-hidden="true">&times;</span><span class="sr-only">close</span>
+        				</button>
+        				<h4 class="modal-title" id="modal-about-us-label">our team</h4>
+        			</div>
+        			<div class="modal-body">
+        				<p><img src="assets/img/modal/2.jpg" alt="" data-at2x="assets/img/modal/2.jpg"></p>
+        				<p class="text-justify">
+	                    	Relationships first; that’s what we’re all about. As a collaboration engine, we help empower and create opportunities for disruption and growth in the areas of people, spaces, and products focusing on people not just the outcome. We’d say more, but pictures do a better job.
+	                    </p>
+        			</div>
+        			<div class="modal-footer">
+        				<button type="button" class="btn btn-default" data-dismiss="modal">close</button>
+        			</div>
+        		</div>
+        	</div>
+        </div>
+        
+
+        <!-- Javascript -->
+        <script src="assets/js/jquery-1.10.2.min.js"></script>
+        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/js/jquery.backstretch.min.js"></script>
+        <script src="assets/js/wow.min.js"></script>
+        <script src="assets/js/retina-1.1.0.min.js"></script>
+        <script src="assets/js/jquery.countdown.min.js"></script>
+        <script src="assets/js/scripts.js"></script>
+        
+        <!--[if lt IE 10]>
+            <script src="assets/js/placeholder.js"></script>
+        <![endif]-->
+
+    </body>
+
 </html>
+

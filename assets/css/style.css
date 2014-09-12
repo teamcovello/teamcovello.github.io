@@ -9,7 +9,7 @@ body {
 strong { font-weight: 700; }
 
 a, a:hover, a:focus {
-	color: #35969a;
+	color: #42c0fb;
 	text-decoration: none;
     -o-transition: all .3s;
     -moz-transition: all .3s;
@@ -33,8 +33,8 @@ h3 {
 
 img { max-width: 100%; }
 
-::-moz-selection { background: #35969a; color: #fff; text-shadow: none; }
-::selection { background: #35969a ; color: #fff; text-shadow: none; }
+::-moz-selection { background: #42c0fb; color: #fff; text-shadow: none; }
+::selection { background: #42c0fb ; color: #fff; text-shadow: none; }
 
 
 /***** Loader *****/
@@ -194,8 +194,8 @@ nav a {
 	padding: 10px 0;
 	color: #fff;
 }
-nav a:hover { color: #35969a; }
-nav a:focus { color: #35969a; outline: 0; }
+nav a:hover { color: #42c0fb; }
+nav a:focus { color: #42c0fb; outline: 0; }
 
 .show-menu, .hide-menu {
 	position: absolute;
@@ -309,7 +309,7 @@ nav a:focus { color: #35969a; outline: 0; }
 
 .error-message {
 	margin: 10px 0;
-	color: #35969a;
+	color: #42c0fb;
 }
 
 
@@ -333,7 +333,7 @@ nav a:focus { color: #35969a; outline: 0; }
 	height: 80px;
     margin: 0 auto;
 	padding-top: 10px;
-	background: #35969a;
+	background: #42c0fb;
 	-moz-border-radius: 6px;
     -webkit-border-radius: 6px;
     border-radius: 6px;
@@ -460,7 +460,7 @@ nav a:focus { color: #35969a; outline: 0; }
 }
 
 .contact-form form .contact-error {
-	border-color: #35969a;
+	border-color: #42c0fb;
 }
 
 .contact-address .map {

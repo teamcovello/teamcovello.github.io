@@ -104,12 +104,13 @@
 	                <div class="col-sm-12 subscribe section-description wow fadeIn">
 	                    <h2>email updates</h2>
 	                    <p>sign up now for the newsletter and we'll let you know when we're ready to dive in:</p>
-	                    <form class="form-inline" role="form" action="http://forms.brace.io/hello@covello.co" method="post">
+	                    <form class="form-inline" role="form" action="//forms.brace.io/hello@covello.co">
 	                    	<div class="form-group">
 	                    		<label class="sr-only" for="subscribe-email">email address</label>
-	                        	<input type="text" name="email" placeholder="enter your email..." class="subscribe-email" id="subscribe-email">
+	                        	<input type="text" name="_replyto" placeholder="enter your email..." class="subscribe-email" id="subscribe-email">
+	                        	<input type="hidden" name="_subject" value="New subscriber!" />
 	                        </div>
-	                        <button type="submit" class="btn">subscribe</button>
+	                        <button type="submit" value="Send" class="btn">subscribe</button>
 	                    </form>
 	                    <div class="success-message"></div>
 	                    <div class="error-message"></div>

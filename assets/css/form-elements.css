@@ -44,7 +44,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
     margin: 0;
     padding: 0 20px;
     vertical-align: middle;
-    background: #35969a;
+    background: #42c0fb;
     border: 0;
     font-family: 'Raleway', sans-serif;
     font-size: 22px;
@@ -89,12 +89,12 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 .subscribe button:focus, 
 .contact-form button:focus {
 	outline: 0;
-	background: #35969a;
+	background: #42c0fb;
 	color: #fff;
 }
 
 .btn:focus, .btn:active:focus, .btn.active:focus {
 	outline: 0;
-	background: #35969a;
+	background: #42c0fb;
 	color: #fff;
 }

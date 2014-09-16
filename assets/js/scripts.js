@@ -162,7 +162,7 @@ jQuery(document).ready(function() {
             			$(this).removeClass('animated shake');
             		});
 	            }
-	            if(json.emailMessage && json.nameMessage && json.titleMessage && json.companyMessage && json.messageMessage ) {
+	            if(json.emailMessage != '' && json.nameMessage != '' && json.titleMessage != '' && json.companyMessage != '' && json.messageMessage != '' ) {
 	                $('.contact-form form').fadeOut('fast', function() {
 	                    $('.contact-form').append('<p>Thanks for contacting us! We will get back to you very soon.</p>');
 	                });

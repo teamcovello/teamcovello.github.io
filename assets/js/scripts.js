@@ -95,7 +95,7 @@ jQuery(document).ready(function() {
 		e.preventDefault();
 	    var postdata = $('.subscribe form').serialize();
 	    $.ajax({
-	        url: "//forms.brace.io/hello@covello.co",
+	        url: '//forms.brace.io/hello@covello.co',
 	        method: 'POST',
 	        data: postdata,
 	        dataType: 'json',
@@ -132,8 +132,8 @@ jQuery(document).ready(function() {
 	    $('.contact-form form input[type="text"], .contact-form form textarea').removeClass('contact-error');
 	    var postdata = $('.contact-form form').serialize();
 	    $.ajax({
-	        type: 'POST',
-	        url: 'assets/contact.php',
+	        url: '//forms.brace.io/hello@covello.co',
+	        method: 'POST',
 	        data: postdata,
 	        dataType: 'json',
 	        success: function(json) {

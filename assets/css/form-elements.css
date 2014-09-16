@@ -6,7 +6,7 @@ textarea {
     vertical-align: middle;
     background: none;
     border: 1px solid #fff;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 22px;
     font-weight: 300;
     line-height: 50px;
@@ -46,7 +46,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
     vertical-align: middle;
     background: #42c0fb;
     border: 0;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 22px;
     font-weight: 300;
     line-height: 52px;

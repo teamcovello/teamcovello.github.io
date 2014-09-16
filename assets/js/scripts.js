@@ -130,7 +130,7 @@ jQuery(document).ready(function() {
 	$('.contact-form form').submit(function(e) {
 		e.preventDefault();
 	    $('.contact-form form input[type="text"], .contact-form form textarea').removeClass('contact-error');
-	    var postdata = $('.contact-form form').serialize();
+	    var postdata = $('.contact-form form textarea').serialize();
 	    $.ajax({
 	        url: '//forms.brace.io/hello@covello.co',
 	        method: 'POST',

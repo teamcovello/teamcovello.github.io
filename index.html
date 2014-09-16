@@ -104,13 +104,13 @@
 	                <div class="col-sm-12 subscribe section-description wow fadeIn">
 	                    <h2>email updates</h2>
 	                    <p>sign up now for the newsletter and we'll let you know when we're ready to dive in:</p>
-	                    <form class="form-inline" role="form" action="//forms.brace.io/hello@covello.co">
+	                    <form class="form-inline" role="form" method="POST" action="//forms.brace.io/hello@covello.co">
 	                    	<div class="form-group">
 	                    		<label class="sr-only" for="subscribe-email">email address</label>
 	                        	<input type="text" name="_replyto" placeholder="enter your email..." class="subscribe-email" id="subscribe-email">
 	                        	<input type="hidden" name="_subject" value="New fishbowl subscriber!" />
 	                        </div>
-	                        <button type="submit" value="Send" class="btn">subscribe</button>
+	                        <button type="submit" class="btn">subscribe</button>
 	                    </form>
 	                    <div class="success-message"></div>
 	                    <div class="error-message"></div>
@@ -257,7 +257,7 @@
 	            <div class="row">
 	                <div class="col-sm-7 contact-form wow fadeInLeft">
 	                    <h3>send us a message</h3>
-	                    <form role="form" action="//forms.brace.io/hello@covello.co">
+	                    <form role="form" action="//forms.brace.io/hello@covello.co" method="POST">
 	                    	<div class="form-group">
 	                    		<label class="sr-only" for="contact-email">email</label>
 	                        	<input type="text" name="_replyto" placeholder="email..." class="contact-email" id="contact-email">
@@ -279,7 +279,7 @@
 	                        	<label class="sr-only" for="contact-message">message</label>
 	                        	<textarea name="message" placeholder="message..." class="contact-message" id="contact-message"></textarea>
 	                        </div>
-	                        <button type="submit" value="Send" class="btn">send it</button>
+	                        <button type="submit" class="btn">send it</button>
 	                    </form>
 	                </div>
 	                <div class="col-sm-5 contact-address wow fadeInUp">

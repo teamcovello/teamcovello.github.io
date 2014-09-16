@@ -112,10 +112,9 @@ jQuery(document).ready(function() {
 	            }
 	            else {
 	                $('.error-message').hide();
-	                $('.success-message').hide();
-	                $('.subscribe form').hide();
-	                $('.success-message').html(json.message);
-	                $('.success-message').fadeIn();
+	                $('.subscribe form').fadeOut('fast', function() {
+	                    $('.subscribe').append('<p>Thanks for subscribing to our newsletter!</p>');
+	                });
 	            }
 	        }
 	    });

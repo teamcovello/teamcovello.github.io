@@ -95,8 +95,8 @@ jQuery(document).ready(function() {
 		e.preventDefault();
 	    var postdata = $('.subscribe form').serialize();
 	    $.ajax({
-	        type: 'POST',
-	        url: 'assets/subscribe.php',
+	        url: "//forms.brace.io/hello@covello.co",
+	        method: 'POST',
 	        data: postdata,
 	        dataType: 'json',
 	        success: function(json) {

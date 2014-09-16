@@ -130,7 +130,7 @@ jQuery(document).ready(function() {
 	$('.contact-form form').submit(function(e) {
 		e.preventDefault();
 	    $('.contact-form form input[type="text"], .contact-form form textarea').removeClass('contact-error');
-	    var postdata = $('.contact-form form textarea').serialize();
+	    var postdata = $('.contact-form form').serialize();
 	    $.ajax({
 	        url: '//forms.brace.io/hello@covello.co',
 	        method: 'POST',
@@ -142,8 +142,18 @@ jQuery(document).ready(function() {
             			$(this).removeClass('animated shake');
             		});
 	            }
-	            if(json.subjectMessage != '') {
-	                $('.contact-form form .contact-subject').addClass('contact-error animated shake').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+	            if(json.nameMessage != '') {
+	                $('.contact-form form .contact-name').addClass('contact-error animated shake').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+            			$(this).removeClass('animated shake');
+            		});
+	            }
+	            if(json.titleMessage != '') {
+	                $('.contact-form form .contact-title').addClass('contact-error animated shake').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+            			$(this).removeClass('animated shake');
+            		});
+	            }
+	            if(json.companyMessage != '') {
+	                $('.contact-form form .contact-company').addClass('contact-error animated shake').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
             			$(this).removeClass('animated shake');
             		});
 	            }
@@ -152,7 +162,7 @@ jQuery(document).ready(function() {
             			$(this).removeClass('animated shake');
             		});
 	            }
-	            if(json.emailMessage == '' && json.subjectMessage == '' && json.messageMessage == '') {
+	            if(json.emailMessage == '' && json.nameMessage == '' && json.titleMessage == '' && json.companyMessage == '' && json.messageMessage == '') {
 	                $('.contact-form form').fadeOut('fast', function() {
 	                    $('.contact-form').append('<p>Thanks for contacting us! We will get back to you very soon.</p>');
 	                });

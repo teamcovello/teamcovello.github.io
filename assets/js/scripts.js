@@ -137,32 +137,32 @@ jQuery(document).ready(function() {
 	        data: postdata,
 	        dataType: 'json',
 	        success: function(json) {
-	            if(json.emailMessage != '') {
+	            if(json.emailMessage == '') {
 	                $('.contact-form form .contact-email').addClass('contact-error animated shake').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
             			$(this).removeClass('animated shake');
             		});
 	            }
-	            if(json.nameMessage != '') {
+	            if(json.nameMessage == '') {
 	                $('.contact-form form .contact-name').addClass('contact-error animated shake').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
             			$(this).removeClass('animated shake');
             		});
 	            }
-	            if(json.titleMessage != '') {
+	            if(json.titleMessage == '') {
 	                $('.contact-form form .contact-title').addClass('contact-error animated shake').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
             			$(this).removeClass('animated shake');
             		});
 	            }
-	            if(json.companyMessage != '') {
+	            if(json.companyMessage == '') {
 	                $('.contact-form form .contact-company').addClass('contact-error animated shake').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
             			$(this).removeClass('animated shake');
             		});
 	            }
-	            if(json.messageMessage != '') {
+	            if(json.messageMessage == '') {
 	                $('.contact-form form textarea').addClass('contact-error animated shake').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
             			$(this).removeClass('animated shake');
             		});
 	            }
-	            if(json.emailMessage == '' && json.nameMessage == '' && json.titleMessage == '' && json.companyMessage == '' && json.messageMessage == '') {
+	            if(json.emailMessage && json.nameMessage && json.titleMessage && json.companyMessage && json.messageMessage ) {
 	                $('.contact-form form').fadeOut('fast', function() {
 	                    $('.contact-form').append('<p>Thanks for contacting us! We will get back to you very soon.</p>');
 	                });
